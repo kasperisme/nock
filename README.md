@@ -205,6 +205,19 @@ Full documentation is available at [nockcrm.com/docs](https://www.nockcrm.com/do
 
 ---
 
+## Want the hosted version?
+
+**[NockCRM](https://www.nockcrm.com)** is the fully managed version of this project — no deployment, no config, no infrastructure to maintain.
+
+- Connect your Notion workspace and Slack in a few clicks
+- Works immediately — no DigitalOcean account, no environment variables, no build step
+- Multi-workspace support for teams running several Slack/Notion pairs
+- Automatic updates
+
+**[Get started at nockcrm.com →](https://www.nockcrm.com)**
+
+---
+
 ## License
 
 MIT
