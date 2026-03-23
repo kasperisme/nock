@@ -1,0 +1,19 @@
+packages:
+  - name: notion-crm
+    functions:
+      - name: crm
+        runtime: python:3.11
+        web: raw
+        limits:
+          timeout: 900000
+          memory: 1024
+        environment:
+          ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
+          PERPLEXITY_API_KEY: ${PERPLEXITY_API_KEY}
+          SUPABASE_URL: ${SUPABASE_URL}
+          SUPABASE_SERVICE_ROLE_KEY: ${SUPABASE_SERVICE_ROLE_KEY}
+          API_SECRET: ${API_SECRET}
+          SLACK_SIGNING_SECRET: ${SLACK_SIGNING_SECRET}
+          SLACK_BOT_TOKEN: ${SLACK_BOT_TOKEN}
+          DO_SLACK_ASYNC_URL: ${DO_SLACK_ASYNC_URL}
+          DO_SLACK_ASYNC_TOKEN: ${DO_SLACK_ASYNC_TOKEN}

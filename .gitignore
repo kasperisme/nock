@@ -137,6 +137,12 @@ celerybeat.pid
 # Environments
 .env
 .envrc
+
+# doctl config files (contain access tokens — never commit these)
+digitalocean
+invisor-cms
+invisorcms
+ontext
 .venv
 env/
 venv/
